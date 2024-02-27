@@ -29,8 +29,3 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 	w.WriteHeader(code)
 	w.Write(dat)
 }
-
-func unused() {
-	// this function does nothing
-	// and is called nowhere
-}
